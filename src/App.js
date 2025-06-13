@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World (from <a href="https://adeptask-demo.youtrack.cloud/issue/DEV-20/Change-page-title">DEV-20</a>)
+          Hello World (from <a href="https://adeptask-demo.youtrack.cloud/issue/DEV-20/Change-page-title">DEV-20</a>) test
         </a>
       </header>
     </div>
