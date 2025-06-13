@@ -8,6 +8,7 @@ permissions:
 jobs:
   deploy-production:
     runs-on: ubuntu-latest
+    environment: production
     steps:
     - name: Setup Node.js
       uses: actions/setup-node@v4
