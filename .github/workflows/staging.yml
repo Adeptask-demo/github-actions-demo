@@ -1,0 +1,28 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - staging
+permissions:
+  contents: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install and Build
+      run: |
+        npm install
+        npm run-script build
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4.7.3
+      with:
+        token: ${{ secrets.token }}
+        folder: build
+        branch: main
+        repository-name: Adeptask-demo/github-actions-demo-staging
