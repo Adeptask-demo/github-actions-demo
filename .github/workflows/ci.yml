@@ -18,7 +18,6 @@ jobs:
         npm install
         npm run-script build
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@v4.7.3
       with:
-        BRANCH: gh-pages
         FOLDER: build
