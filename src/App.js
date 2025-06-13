@@ -7,16 +7,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://adeptask-demo.youtrack.cloud/issue/DEV-21"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World (from <a href="https://adeptask-demo.youtrack.cloud/issue/DEV-21">DEV-21</a>)
+          Hello World (from DEV-21)
         </a>
       </header>
     </div>
