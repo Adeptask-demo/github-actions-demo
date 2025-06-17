@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <a
-          className="App-link"
+          className="App-link" DEV-36-404-on-Projects-Item
           href="https://adeptask-demo.youtrack.cloud/issue/DEV-36"
           target="_blank"
           rel="noopener noreferrer"
