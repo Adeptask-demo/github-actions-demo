@@ -9,11 +9,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="https://adeptask-demo.youtrack.cloud/issue/DEV-21"
+          href="https://adeptask-demo.youtrack.cloud/issue/DEV-37"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World (from DEV-21)
+          Hello World (from DEV-37)
         </a>
       </header>
     </div>
